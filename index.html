@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="Assets/Styles/Design.css" type="text/css">
     <link rel="stylesheet" href="Assets/Styles/Queries.css" type="text/css">
     <link rel="stylesheet" href="Assets/Styles/normalize.css" type="text/css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <nav id="desktop-nav">
@@ -44,7 +45,7 @@
 </nav>
 <section id="profile">
     <div class="section__pic-container">
-        <img src="Assets/Images/Gallery/profileBlack&white.jpg" alt="John Doe profile picture" id="profpic"/>
+        <img src="Assets/Images/Gallery/profileBlack&white.jpg" alt="shalom profile picture" id="profpic"/>
     </div>
     <div class="section__text">
         <p class="section__text__p1">Greetings, I'm</p>
@@ -53,7 +54,7 @@
         <div class="btn-container">
             <button
                     class="btn btn-color-2"
-                    onclick="window.open('./assets/resume-example.pdf')"
+                    onclick="window.open()"
             >
                 Download CV
             </button>
@@ -66,18 +67,18 @@
                     src="Assets/Images/Icone/linkedin%20(1).png"
                     alt="My LinkedIn profile"
                     class="icon"
-                    onclick="location.href='https://linkedin.com/'"
+                    onclick="location.href='https://www.linkedin.com/in/shalom-hosheya-1a19a42ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'"
             />
             <img
                     src="Assets/Images/Icone/icons8-github-50.png"
                     alt="My Github profile"
                     class="icon"
-                    onclick="location.href='https://github.com/'"
+                    onclick="location.href='https://github.com/Shalomhosheya'"
             />
         </div>
     </div>
 </section>
-<section id="about">
+<section id="about" >
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
@@ -88,7 +89,7 @@
                     class="about-pic"
             />
         </div>
-        <div class="about-details-container"id="viewPro">
+        <div class="about-details-container"id="viewPro"data-aos="zoom-in">
             <div class="about-containers">
                 <button class="details-container"id="d1">
                     <img
@@ -189,7 +190,8 @@
 <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
-    <div class="experience-details-container">
+    <div class="experience-details-container"data-aos="fade-up"
+         data-aos-anchor-placement="top-bottom">
         <div class="about-containers">
             <div class="details-container">
                 <h2 class="experience-sub-title">BackEnd Development</h2>
@@ -335,7 +337,7 @@
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Gallery</h1>
     <div class="experience-details-container">
-        <div class="about-containers">
+        <div class="about-containers"data-aos="zoom-in-down">
             <div class="details-container color-container">
                 <div class="article-container">
                     <video
@@ -419,7 +421,7 @@
                     alt="LinkedIn icon"
                     class="icon contact-icon"
             />
-            <p><a href="https://www.linkedin.com"class="mail">LinkedIn</a></p>
+            <p><a href="https://www.linkedin.com/in/shalom-hosheya-1a19a42ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"class="mail">LinkedIn</a></p>
         </div>
     </div>
 </section>
@@ -434,8 +436,12 @@
             </ul>
         </div>
     </nav>
-    <p>Copyright &#169; 2023 SHalom Hosheya. All Rights Reserved.</p>
+    <p>Copyright &#169; 2023 Shalom Hosheya. All Rights Reserved.</p>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="Assets/JsFiles/jsFile.js"></script>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </body>
