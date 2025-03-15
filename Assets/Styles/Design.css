@@ -564,8 +564,8 @@ footer p {
     width: 400px;
     height: 600px;
     background-image: url('../Images/Gallery/img.png');
-    background-size: cover; /* Makes sure the image covers the whole element
-    background-position: center; Centers the image within the element */
+    background-size: cover; 
+    background-position: center; 
     
 }
 #pro4 {
@@ -580,8 +580,8 @@ footer p {
     width: 400px;
     height: 600px;
     background-image: url('../Images/Gallery/img.png');
-    /* background-size: cover; Makes sure the image covers the whole element */
-    /* background-position: center; Centers the image within the element */
+    background-size: cover; 
+    background-position: center;
 }
 
 #pro5 {
@@ -596,8 +596,8 @@ footer p {
     width: 400px;
     height: 600px;
     background-image: url('../Images/Gallery/img.png');
-    /* background-size: cover; Makes sure the image covers the whole element */
-    /* background-position: center; Centers the image within the element */
+     background-size: cover; /*Makes sure the image covers the whole element */
+    background-position: center; /* Centers the image within the element */
 }
 
 #pro6 {
@@ -612,8 +612,8 @@ footer p {
     width: 400px;
     height: 600px;
     background-image: url('../Images/Gallery/img.png');
-    /* background-size: cover; Makes sure the image covers the whole element */
-    /* background-position: center; Centers the image within the element */
+    background-size: cover;/* Makes sure the image covers the whole element */
+    background-position: center; /*Centers the image within the element */
 }
 
 
