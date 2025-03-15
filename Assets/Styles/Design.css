@@ -519,36 +519,17 @@ footer p {
 
 /* Hover effect for small buttons inside .i */
 .i button:hover {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
     transform: scale(1.1); /* Slightly enlarge the button on hover */
 }
 
 /* Hide the view and code buttons initially */
-.viewPro, .viewCode {
-    position: absolute;
-    font-size: 17px;
-    bottom: 50%;
-    display: none; /* Hide initially */
-}
-
-.viewPro1 { color: greenyellow; left: 5%; }
-.viewCode1 { color: greenyellow; left: 9%; }
-.viewPro2 { color: rgb(255, 47, 127); left: 24%; }
-.viewCode2 { color: rgb(255, 47, 127); left: 28%; }
-.viewPro3 { color: rgb(120, 47, 255); left: 33%; }
-.viewCode3 { color: rgb(120, 47, 255); left: 38%; }
-.viewPro4 { color: rgb(0, 0, 0); left: 41%; }
-.viewCode4 { color: rgb(0, 0, 0); left: 43%; }
-.viewPro5 { color: rgb(155, 38, 83); left: 45%; }
-.viewCode5 { color: rgb(155, 38, 83); left: 39%; }
-.viewPro6 { color: rgb(15, 189, 160); left: 44%; }
-.viewCode6 { color: rgb(15, 189, 160); left: 49%; }
 
 /* Hover effect for project buttons */
 .i:hover {
     width: 250px;
     opacity: 1;
-    background-color: black;
+    background-color: transparent;
     justify-content: space-around;
     display: block; /* Ensure it's a block element when hovered */
     margin: 10px;
@@ -559,6 +540,21 @@ footer p {
 .i:hover .viewCode {
     display: block;
 }
+#pro1 {
+    width: 100px;
+    height: 600px;
+    background-image: url('../Images/Gallery/img.png');
+    background-size: cover; /* Makes sure the image covers the whole element */
+    background-position: center; /* Centers the image within the element */
+}
+#pro1:hover {
+    width: 250px;
+    height: 600px;
+    background-image: url('../Images/Gallery/img.png');
+    background-size: cover; /* Makes sure the image covers the whole element */
+    background-position: center; /* Centers the image within the element */
+}
+
 
 /* Show close button on hover */
 .i:hover #closebutton {
@@ -662,9 +658,6 @@ footer p {
     left: 73vw;
     border-radius: 20px;
     display: none;
-}
-.i:hover{
-    background: #d0bdf4;
 }
 .details-container:hover{
     background: rgba(255,255,255,0.35);
