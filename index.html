@@ -7,12 +7,16 @@
     <meta name="description" content="Portfolio website of Shalom Hosheya, a Full Stack Developer & Web Developer">
     <meta name="keywords" content="Shalom Hosheya, Full Stack Developer, Web Developer, Portfolio">
     <meta name="author" content="Shalom Hosheya">
-
+   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <title>Shalom</title>
     <link rel="stylesheet" href="Assets/Styles/Design.css" type="text/css">
     <link rel="stylesheet" href="Assets/Styles/Queries.css" type="text/css">
     <link rel="stylesheet" href="Assets/Styles/normalize.css" type="text/css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
 <nav id="desktop-nav">
@@ -129,61 +133,41 @@
     />
     <div id="projects1">
         <button class="i" id="pro1">
-            <h3 class="pro">PC Management </h3>
-        </button>
-        <button class="i" id="pro2">
-            <a href=""></a>
-            <h3 class="pro">Cafe Management</h3>
-
-        </button>
-        <button class="i" id="pro3">
-            <a href=""></a>
-            <h3 class="pro">Chat Application</h3>
+            <h2 class="namePro" >Projects 1</h2>
         </button>
         <button class="i" id="pro4">
-            <h3 class="pro">Library Management</h3>
-            <button id="closebutton">X</button>
+            <h2 class="namePro" >Projects 2</h2>
+            
         </button>
+        <button class="i" id="pro5">
+            <h2 class="namePro" >Projects 3</h2>
+            
+        </button>
+        <button class="i" id="pro6">
+            <h2 class="namePro" >Projects 4</h2>
+            
+        </button>
+        <button class="i" id="pro7">
+            <h2 class="namePro" >Projects 5</h2>
+            
+        </button>
+        <button class="i" id="pro8">
+            <h2 class="namePro" >Projects 6</h2>
+            
+        </button>
+    
+        <button id="closebutton">X</button>
     </div>
+    
+    
    <div class="achievements">
-       <div id="assignments">
-           <button id="b1">
-               <h2>Assignment 1</h2>
-           </button>
-           <button id="b2">
-               <h2>Assignment 2</h2>
-           </button>
-           <button id="b3">
-               <h2>Assignment 3</h2>
-           </button>
-           <button id="b4">
-               <h2>Assignment 4</h2>
-
-           </button>
-           <button id="b5">
-               <h2>Assignment 5</h2>
-
-           </button>
-           <button id="b6">
-               <h2>Assignment 6</h2>
-
-           </button>
-           <button id="b7">
-               <h2>Assignment 7</h2>
-           </button>
-           <button id="b8">
-               <h2>Assignment 8</h2>
-           </button>
-           <button id="b9">
-               <h2>Assignment 9</h2>
-           </button>
-           <button id="b10">
-               <h2>Assignment 10</h2>
-           </button>
-       </div>
-           <button id="closebutton2">
-                 close
-           </button>
+    <div id="assignments" class="p-4 bg-white rounded-md shadow-sm border border-gray-300">
+        <p class="text-lg font-semibold text-gray-700">View Qualification</p>
+    </div>
+    <button id="closebutton2" class="mt-4 w-full h-full px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition">
+     ✖️
+    </button>
+    
 
    </div>
 </section>
@@ -350,7 +334,7 @@
                             loop
                     />
                 </div>
-                <h2 class="experience-sub-title project-title">Memories💓</h2>
+                <h2 class="experience-sub-title project-title animate__animated animate__bounce">Memories💓</h2>
                 <div class="btn-container">
 
                 </div>
@@ -442,7 +426,7 @@
 <script>
     AOS.init();
 </script>
-<script src="Assets/JsFiles/jsFile.js"></script>
+<script type="module" src="Assets/JsFiles/jsFile.js"></script>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </body>
 </html>

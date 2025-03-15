@@ -375,9 +375,9 @@ article .icon {
 
 /* PROJECTS SECTION */
 
-#projects {
+/* #projects {
     position: relative;
-}
+} */
 
 .color-container {
     border-color: rgb(163, 163, 163);
@@ -488,29 +488,143 @@ footer p {
 #projects1>button:hover{
     background-image: url("Assets/Images/Gallery/WhatsApp Image 2024-04-09 at 21.42.30_8df6f321.jpg");
 }
-.i{
+/* Initial styles for the project buttons */
+.i {
     border: 3px solid black;
-    border-radius: 50px;
-    width: 250px;
+    border-radius: 100px;
+    width: 100px;
     opacity: 1;
     background-color: black;
     justify-content: space-around;
     display: flex;
+    margin: 10px;
+    position: relative; /* To allow positioning of close button */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    flex-direction: column; /* Align inner buttons vertically */
+    align-items: center; /* Center inner buttons horizontally */
 }
+
+/* Small buttons inside .i */
+.i button {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Hover effect for small buttons inside .i */
+.i button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+/* Hide the view and code buttons initially */
+.viewPro, .viewCode {
+    position: absolute;
+    font-size: 17px;
+    bottom: 50%;
+    display: none; /* Hide initially */
+}
+
+.viewPro1 { color: greenyellow; left: 5%; }
+.viewCode1 { color: greenyellow; left: 9%; }
+.viewPro2 { color: rgb(255, 47, 127); left: 24%; }
+.viewCode2 { color: rgb(255, 47, 127); left: 28%; }
+.viewPro3 { color: rgb(120, 47, 255); left: 33%; }
+.viewCode3 { color: rgb(120, 47, 255); left: 38%; }
+.viewPro4 { color: rgb(0, 0, 0); left: 41%; }
+.viewCode4 { color: rgb(0, 0, 0); left: 43%; }
+.viewPro5 { color: rgb(155, 38, 83); left: 45%; }
+.viewCode5 { color: rgb(155, 38, 83); left: 39%; }
+.viewPro6 { color: rgb(15, 189, 160); left: 44%; }
+.viewCode6 { color: rgb(15, 189, 160); left: 49%; }
+
+/* Hover effect for project buttons */
+.i:hover {
+    width: 250px;
+    opacity: 1;
+    background-color: black;
+    justify-content: space-around;
+    display: block; /* Ensure it's a block element when hovered */
+    margin: 10px;
+}
+
+/* Show view and code buttons when hovering over the parent button */
+.i:hover .viewPro,
+.i:hover .viewCode {
+    display: block;
+}
+
+/* Show close button on hover */
+.i:hover #closebutton {
+    display: block; /* Make close button visible on hover */
+}
+
+/* Close button styles */
+#closebutton {
+    display: none; /* Hidden initially */
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Optional: Close button hover effect */
+#closebutton:hover {
+    background-color: darkred;
+}
+
+
+/* Hide the project buttons initially */
+.pro {
+    position: absolute;
+    bottom: 50%;
+    color: white;
+    font-size: 17px;
+}
+
+/* Show close button on hover */
+.i:hover #closebutton {
+    display: block; /* Make close button visible on hover */
+}
+
+/* .namePro{
+    display: none;
+} */
+/* Style the close button */
+#closebutton {
+    display: block; /* Initially hide close button */
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Optional: Add styles for links inside buttons */
+
+
 #closebutton{
     position: absolute;
     right: 0;
     width: 50px;
     aspect-ratio: 1/1;
 }
-.pro{
-    position: absolute;
-    /*left: 3%;*/
-    bottom: 50%;
-    color: white;
-    font-size: 17px;
-    /*font-family: "Poppins", SA-Aradana;*/
-}
+
 .mail{
     color: black;
 }
