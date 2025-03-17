@@ -107,3 +107,29 @@ openBtn.addEventListener("click",function (){
     assignemnt.style.display="flex"
     closeBtn.style.display="block"
 })
+ // GitHub link to open
+ const movieClone = "https://github.com/Shalomhosheya/MovieAppClone";
+ const greenShadow = "https://github.com/Shalomhosheya/MovieAppClone";
+ const fitnessApp = "https://github.com/Shalomhosheya/MovieAppClone";
+ const cakeShop = "https://github.com/Shalomhosheya/MovieAppClone";
+ const fitFun = "https://github.com/Shalomhosheya/MovieAppClone";
+ const chatApp = "https://github.com/Shalomhosheya/MovieAppClone";
+ const cafe = "https://github.com/Shalomhosheya/MovieAppClone";
+ const lib = "https://github.com/Shalomhosheya/LibraryManagementSystem";
+
+ // Function to open GitHub link
+ 
+ // Add click event to each project button
+ document.getElementById("pro1").addEventListener("click", movieClone);
+ document.getElementById("pro2").addEventListener("click", greenShadow);
+ document.getElementById("pro3").addEventListener("click", fitnessApp);
+ document.getElementById("pro4").addEventListener("click", cakeShop);
+ document.getElementById("pro5").addEventListener("click", fitFun);
+ document.getElementById("pro6").addEventListener("click", chatApp);
+ document.getElementById("pro7").addEventListener("click", cafe);
+ document.getElementById("pro8").addEventListener("click", lib);
+
+ // Add click event to close button
+ document.getElementById("closebutton").addEventListener("click", function() {
+     window.close(); // Closes the current window/tab
+ });

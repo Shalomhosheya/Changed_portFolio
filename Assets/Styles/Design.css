@@ -451,18 +451,7 @@ footer {
 footer p {
     text-align: center;
 }
-#profpic {
-    border-radius: 50%; /* Circular shape */
-    width: 80vw; /* Makes it scale with viewport width */
-    max-width: 620px; /* Limits max size for large screens */
-    height: 80vw; /* Keeps it proportional */
-    max-height: 620px; /* Matches the max-width */
-    display: block;
-    margin: 0 auto; /* Centers it */
-    position: relative;
-    object-fit: cover; /* Ensures it fills the circular frame */
-    overflow: hidden;
-}
+
 
 
 .typing{
@@ -624,7 +613,48 @@ footer p {
     background-size: cover;/* Makes sure the image covers the whole element */
     background-position: center; /*Centers the image within the element */
 }
+#pro7 {
+    width: 100px;
+    height: 600px;
+    background-image: url('../Images/Gallery/img.png');
+    background-size: cover; /* Makes sure the image covers the whole element */
+    background-position: center; /* Centers the image within the element */
+}
 
+#pro7:hover {
+    width: 400px;
+    height: 600px;
+    background-image: url('../Images/Gallery/img.png');
+    background-size: cover;/* Makes sure the image covers the whole element */
+    background-position: center; /*Centers the image within the element */
+}
+#pro8 {
+    width: 100px;
+    height: 600px;
+    background-image: url('../Images/Gallery/img.png');
+    background-size: cover; /* Makes sure the image covers the whole element */
+    background-position: center; /* Centers the image within the element */
+}
+
+#pro8:hover {
+    width: 400px;
+    height: 600px;
+    background-image: url('../Images/Gallery/img.png');
+    background-size: cover;/* Makes sure the image covers the whole element */
+    background-position: center; /*Centers the image within the element */
+}
+#profpic {
+    border-radius: 50%; /* Circular shape */
+    width: 80vw; /* Makes it scale with viewport width */
+    max-width: 620px; /* Limits max size for large screens */
+    height: 80vw; /* Keeps it proportional */
+    max-height: 620px; /* Matches the max-width */
+    display: block;
+    margin: 0 auto; /* Centers it */
+    position: relative;
+    object-fit: cover; /* Ensures it fills the circular frame */
+    overflow: hidden;
+}
 
 /* Show close button on hover */
 .i:hover #closebutton {
