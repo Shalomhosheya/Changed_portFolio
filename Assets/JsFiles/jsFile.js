@@ -133,7 +133,3 @@ document.getElementById("pro6").addEventListener("click", () => openGithub(chatA
 document.getElementById("pro7").addEventListener("click", () => openGithub(cafe));
 document.getElementById("pro8").addEventListener("click", () => openGithub(lib));
 
-// Add click event to close button
-document.getElementById("closebutton").addEventListener("click", function () {
-    window.close(); // Closes the current window/tab
-});
