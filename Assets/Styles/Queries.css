@@ -6,6 +6,7 @@
     .about-containers {
         flex-wrap: wrap;
     }
+
     #contact,
     #projects {
         height: fit-content;
@@ -17,6 +18,13 @@
         left: 68vw;
         border-radius: 20px;
         display: none;
+    }
+    #profpic {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -73,10 +81,22 @@
         border-radius: 20px;
         display: none;
     }
+    #profpic {
+        width: 100%;
+        max-width: 550px;
+        height: auto;
+    }
+    
+    
 }
 
 @media screen and (max-width: 600px) {
-
+    #profpic {
+        width: 90%;
+        max-width: 350px;
+        height: auto;
+        border-radius: 10px;
+    }
     #contact,
     footer {
         height: 40vh;

@@ -451,11 +451,20 @@ footer {
 footer p {
     text-align: center;
 }
-#profpic{
-    border-radius: 100%;
-
-
+#profpic {
+    border-radius: 50%; /* Circular shape */
+    width: 80vw; /* Makes it scale with viewport width */
+    max-width: 620px; /* Limits max size for large screens */
+    height: 80vw; /* Keeps it proportional */
+    max-height: 620px; /* Matches the max-width */
+    display: block;
+    margin: 0 auto; /* Centers it */
+    position: relative;
+    object-fit: cover; /* Ensures it fills the circular frame */
+    overflow: hidden;
 }
+
+
 .typing{
     color: white;
     font-size: 20px;
@@ -649,6 +658,9 @@ footer p {
     color: white;
     font-size: 17px;
 }
+.namePro{
+ color: aqua;
+}
 
 /* Show close button on hover */
 .i:hover #closebutton {
@@ -733,8 +745,5 @@ footer p {
     }
 }
 @keyframes animi {
-  100%{
-      opacity: 0.8;
-
-  }
+    
 }
