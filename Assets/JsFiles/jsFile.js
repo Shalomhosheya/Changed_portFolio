@@ -108,28 +108,32 @@ openBtn.addEventListener("click",function (){
     closeBtn.style.display="block"
 })
  // GitHub link to open
- const movieClone = "https://github.com/Shalomhosheya/MovieAppClone";
- const greenShadow = "https://github.com/Shalomhosheya/MovieAppClone";
- const fitnessApp = "https://github.com/Shalomhosheya/MovieAppClone";
- const cakeShop = "https://github.com/Shalomhosheya/MovieAppClone";
- const fitFun = "https://github.com/Shalomhosheya/MovieAppClone";
- const chatApp = "https://github.com/Shalomhosheya/MovieAppClone";
- const cafe = "https://github.com/Shalomhosheya/MovieAppClone";
- const lib = "https://github.com/Shalomhosheya/LibraryManagementSystem";
+ // URLs for each project
+const movieClone = "https://github.com/Shalomhosheya/MovieAppClone";
+const greenShadow = "https://github.com/Shalomhosheya/CropMonitoringSystem";
+const fitnessApp = "https://github.com/Shalomhosheya/FitnessAppMobile";
+const cakeShop = "https://github.com/Shalomhosheya/cake-Shop";
+const fitFun = "https://github.com/Shalomhosheya/FitFun";
+const chatApp = "https://github.com/Shalomhosheya/ChatAppplication";
+const cafe = "https://github.com/Shalomhosheya/CafemanagementSystem";
+const lib = "https://github.com/Shalomhosheya/LibraryManagementSystem";
 
- // Function to open GitHub link
- 
- // Add click event to each project button
- document.getElementById("pro1").addEventListener("click", movieClone);
- document.getElementById("pro2").addEventListener("click", greenShadow);
- document.getElementById("pro3").addEventListener("click", fitnessApp);
- document.getElementById("pro4").addEventListener("click", cakeShop);
- document.getElementById("pro5").addEventListener("click", fitFun);
- document.getElementById("pro6").addEventListener("click", chatApp);
- document.getElementById("pro7").addEventListener("click", cafe);
- document.getElementById("pro8").addEventListener("click", lib);
+// Function to open GitHub link
+function openGithub(url) {
+    window.open(url, "_blank"); // Opens the URL in a new tab
+}
 
- // Add click event to close button
- document.getElementById("closebutton").addEventListener("click", function() {
-     window.close(); // Closes the current window/tab
- });
+// Add click event to each project button
+document.getElementById("pro1").addEventListener("click", () => openGithub(movieClone));
+document.getElementById("pro2").addEventListener("click", () => openGithub(greenShadow));
+document.getElementById("pro3").addEventListener("click", () => openGithub(fitnessApp));
+document.getElementById("pro4").addEventListener("click", () => openGithub(cakeShop));
+document.getElementById("pro5").addEventListener("click", () => openGithub(fitFun));
+document.getElementById("pro6").addEventListener("click", () => openGithub(chatApp));
+document.getElementById("pro7").addEventListener("click", () => openGithub(cafe));
+document.getElementById("pro8").addEventListener("click", () => openGithub(lib));
+
+// Add click event to close button
+document.getElementById("closebutton").addEventListener("click", function () {
+    window.close(); // Closes the current window/tab
+});
