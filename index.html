@@ -46,21 +46,37 @@
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
     </div>
-</nav>
-<section id="profile">
-    <div class="section__pic-container">
-        <img src="./Assets/" alt="shalom profile picture" id="profpic" />
+</nav><section id="profile">
+    <div class="section__pic-container"><div class="section__pic-container">
+        <video id="profpic" poster="./Assets/Images/poster.jpg"
+            muted
+            autoplay
+            loop
+            type="video/mp4">
+            <source src="./Assets/Videos/c2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+        <!-- Corrected video tag with poster and controls -->
+        <video id="profpic" controls poster="./Assets/Images/poster.jpg"
+            muted
+            autoplay
+            loop
+            type="video/mp4"
 
+            >
+            <source src="./Assets/Videos/c2.mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
     <div class="section__text">
         <p class="section__text__p1">Greetings, I'm</p>
-        <h1 class="title  ">Shalom Hosheya</h1>
+        <h1 class="title">Shalom Hosheya</h1>
         <p class="section__text__p2 typing"></p>
         <div class="btn-container">
-            <button
-                    class="btn btn-color-2"
-                    onclick="window.open()"
-            >
+            <!-- Added a URL to the window.open() function -->
+            <button class="btn btn-color-2" onclick="window.open('./Assets/Documents/Shalom_CV.pdf')">
                 Download CV
             </button>
             <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -68,17 +84,20 @@
             </button>
         </div>
         <div id="socials-container">
+            <!-- Added aria-label for better accessibility -->
             <img
-                    src="Assets/Images/Icone/linkedin%20(1).png"
-                    alt="My LinkedIn profile"
-                    class="icon"
-                    onclick="location.href='https://www.linkedin.com/in/shalom-hosheya-1a19a42ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'"
+                src="Assets/Images/Icone/linkedin%20(1).png"
+                alt="My LinkedIn profile"
+                class="icon"
+                aria-label="LinkedIn"
+                onclick="location.href='https://www.linkedin.com/in/shalom-hosheya-1a19a42ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'"
             />
             <img
-                    src="Assets/Images/Icone/icons8-github-50.png"
-                    alt="My Github profile"
-                    class="icon"
-                    onclick="location.href='https://github.com/Shalomhosheya'"
+                src="Assets/Images/Icone/icons8-github-50.png"
+                alt="My Github profile"
+                class="icon"
+                aria-label="GitHub"
+                onclick="location.href='https://github.com/Shalomhosheya'"
             />
         </div>
     </div>
