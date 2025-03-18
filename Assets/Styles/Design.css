@@ -541,7 +541,7 @@ footer p {
 #pro2 {
     width: 100px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/shadowimage.jpeg');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
     filter: blur(3px);
@@ -551,7 +551,7 @@ footer p {
 #pro2:hover {
     width: 400px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/shadowimage.jpeg');
     background-size: cover; 
     background-position: center;
     filter: blur(0px);
@@ -560,7 +560,7 @@ footer p {
 #pro3 {
     width: 100px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/fitnessApp.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
     filter: blur(3px);
@@ -569,7 +569,7 @@ footer p {
 #pro3:hover {
     width: 400px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/fitnessApp.png');
     background-size: cover; 
     background-position: center; 
     filter: blur(0px);
@@ -578,7 +578,7 @@ footer p {
 #pro4 {
     width: 100px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/cake.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
     filter: blur(3px);
@@ -589,7 +589,7 @@ footer p {
 #pro4:hover {
     width: 400px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/cake.png');
     background-size: cover; 
     background-position: center;
     filter: blur(0px);
@@ -598,7 +598,7 @@ footer p {
 #pro5 {
     width: 100px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/firfun.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
     filter: blur(3px);
@@ -608,7 +608,7 @@ footer p {
 #pro5:hover {
     width: 400px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/firfun.png');
     background-size: cover; /*Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
     filter: blur(0px);
@@ -617,7 +617,7 @@ footer p {
 #pro6 {
     width: 100px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/java-chatImage.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
     filter: blur(3px);
@@ -627,7 +627,7 @@ footer p {
 #pro6:hover {
     width: 400px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/java-chatImage.png');
     background-size: cover;/* Makes sure the image covers the whole element */
     background-position: center; /*Centers the image within the element */
     filter: blur(0px);
@@ -635,7 +635,7 @@ footer p {
 #pro7 {
     width: 100px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/cafeImage.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
     filter: blur(3px);
@@ -645,7 +645,7 @@ footer p {
 #pro7:hover {
     width: 400px;
     height: 600px;
-    background-image: url('../Images/Gallery/img.png');
+    background-image: url('../Images/Gallery/projects/cafeImage.png');
     background-size: cover;/* Makes sure the image covers the whole element */
     background-position: center; /*Centers the image within the element */
     filter: blur(0px);
