@@ -526,13 +526,16 @@ footer p {
     background-image: url('../Images/Gallery/projects/movieClone.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
+    filter: blur(3px);
+    transition: all 0.5s ease; /* Smooth transition for hover effects */
 }
 #pro1:hover {
     width: 400px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/movieClone.png');
-    background-size: cover; /* Makes sure the image covers the whole element
-    background-position: center; Centers the image within the element */
+    background-size: cover;
+    background-position: center;  
+    filter: blur(0px);
     
 }
 #pro2 {
@@ -541,14 +544,17 @@ footer p {
     background-image: url('../Images/Gallery/img.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
+    filter: blur(3px);
+    transition: all 0.5s ease;
 }
 
 #pro2:hover {
     width: 400px;
     height: 600px;
     background-image: url('../Images/Gallery/img.png');
-    /* background-size: cover; Makes sure the image covers the whole element */
-    /* background-position: center; Centers the image within the element */
+    background-size: cover; 
+    background-position: center;
+    filter: blur(0px);
 }
 
 #pro3 {
@@ -557,6 +563,8 @@ footer p {
     background-image: url('../Images/Gallery/img.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
+    filter: blur(3px);
+    transition: all 0.5s ease;
 }
 #pro3:hover {
     width: 400px;
@@ -564,6 +572,7 @@ footer p {
     background-image: url('../Images/Gallery/img.png');
     background-size: cover; 
     background-position: center; 
+    filter: blur(0px);
     
 }
 #pro4 {
@@ -572,7 +581,10 @@ footer p {
     background-image: url('../Images/Gallery/img.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
+    filter: blur(3px);
+    transition: all 0.5s ease;
 }
+
 
 #pro4:hover {
     width: 400px;
@@ -580,6 +592,7 @@ footer p {
     background-image: url('../Images/Gallery/img.png');
     background-size: cover; 
     background-position: center;
+    filter: blur(0px);
 }
 
 #pro5 {
@@ -588,14 +601,17 @@ footer p {
     background-image: url('../Images/Gallery/img.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
+    filter: blur(3px);
+    transition: all 0.5s ease;
 }
 
 #pro5:hover {
     width: 400px;
     height: 600px;
     background-image: url('../Images/Gallery/img.png');
-     background-size: cover; /*Makes sure the image covers the whole element */
+    background-size: cover; /*Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
+    filter: blur(0px);
 }
 
 #pro6 {
@@ -604,6 +620,8 @@ footer p {
     background-image: url('../Images/Gallery/img.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
+    filter: blur(3px);
+    transition: all 0.5s ease;
 }
 
 #pro6:hover {
@@ -612,6 +630,7 @@ footer p {
     background-image: url('../Images/Gallery/img.png');
     background-size: cover;/* Makes sure the image covers the whole element */
     background-position: center; /*Centers the image within the element */
+    filter: blur(0px);
 }
 #pro7 {
     width: 100px;
@@ -619,6 +638,8 @@ footer p {
     background-image: url('../Images/Gallery/img.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
+    filter: blur(3px);
+    transition: all 0.5s ease;
 }
 
 #pro7:hover {
@@ -627,6 +648,7 @@ footer p {
     background-image: url('../Images/Gallery/img.png');
     background-size: cover;/* Makes sure the image covers the whole element */
     background-position: center; /*Centers the image within the element */
+    filter: blur(0px);
 }
 #pro8 {
     width: 100px;
@@ -634,6 +656,8 @@ footer p {
     background-image: url('../Images/Gallery/projects/lib.png');
     background-size: cover; /* Makes sure the image covers the whole element */
     background-position: center; /* Centers the image within the element */
+    filter: blur(3px);
+    transition: all 0.5s ease;
 }
 
 #pro8:hover {
@@ -642,10 +666,11 @@ footer p {
     background-image: url('../Images/Gallery/projects/lib.png');
     background-size: cover;/* Makes sure the image covers the whole element */
     background-position: center; /*Centers the image within the element */
+    filter: blur(0px);
 }
 #profpic {
     border-radius: 100px; /* Circular shape */
-    width: 80vw; /* Makes it scale with viewport width */
+    width: 88vw; /* Makes it scale with viewport width */
     max-width: 620px; /* Limits max size for large screens */
     height: 80vw; /* Keeps it proportional */
     max-height: 620px; /* Matches the max-width */
