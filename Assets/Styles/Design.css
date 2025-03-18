@@ -644,7 +644,7 @@ footer p {
     background-position: center; /*Centers the image within the element */
 }
 #profpic {
-    border-radius: 50%; /* Circular shape */
+    border-radius: 0; /* Circular shape */
     width: 80vw; /* Makes it scale with viewport width */
     max-width: 620px; /* Limits max size for large screens */
     height: 80vw; /* Keeps it proportional */
