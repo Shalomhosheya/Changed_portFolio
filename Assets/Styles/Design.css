@@ -11,6 +11,7 @@
 body {
     font-family: "Poppins", sans-serif;
     background-color: black;
+    
 }
 
 html {
@@ -666,16 +667,16 @@ footer p {
     filter: blur(0px);
 }
 #profpic {
-    border-radius: 100px; 
-    width: 88vw;
-    max-width: 620px; 
-    height: 80vw; 
+    border-radius: 10px; 
+    width: 22vw;
+    max-width: 720px; 
+    height: 81vw; 
     max-height: 620px; 
     display: block;
     margin: 0 auto; 
     position: relative;
     object-fit: cover; 
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .i:hover #closebutton {
