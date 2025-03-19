@@ -375,9 +375,7 @@ article .icon {
 
 /* PROJECTS SECTION */
 
-/* #projects {
-    position: relative;
-} */
+
 
 .color-container {
     border-color: rgb(163, 163, 163);
@@ -484,7 +482,6 @@ footer p {
 
 }
 
-/* Initial styles for the project buttons */
 .i {
     border: 3px solid black;
     border-radius: 100px;
@@ -494,10 +491,10 @@ footer p {
     justify-content: space-around;
     display: flex;
     margin: 10px;
-    position: relative; /* To allow positioning of close button */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-    flex-direction: column; /* Align inner buttons vertically */
-    align-items: center; /* Center inner buttons horizontally */
+    position: relative; 
+    transition: all 0.3s ease; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
 /* Small buttons inside .i */
@@ -515,7 +512,7 @@ footer p {
 
 
 
-/* Show view and code buttons when hovering over the parent button */
+
 .i:hover .viewPro,
 .i:hover .viewCode {
     display: block;
@@ -524,10 +521,10 @@ footer p {
     width: 100px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/movieClone.png');
-    background-size: cover; /* Makes sure the image covers the whole element */
-    background-position: center; /* Centers the image within the element */
+    background-size: cover; 
+    background-position: center;
     filter: blur(3px);
-    transition: all 0.5s ease; /* Smooth transition for hover effects */
+    transition: all 0.5s ease; 
 }
 #pro1:hover {
     width: 400px;
@@ -542,8 +539,8 @@ footer p {
     width: 100px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/shadowimage.jpeg');
-    background-size: cover; /* Makes sure the image covers the whole element */
-    background-position: center; /* Centers the image within the element */
+    background-size: cover; 
+    background-position: center; 
     filter: blur(3px);
     transition: all 0.5s ease;
 }
@@ -561,8 +558,8 @@ footer p {
     width: 100px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/fitnessApp.png');
-    background-size: cover; /* Makes sure the image covers the whole element */
-    background-position: center; /* Centers the image within the element */
+    background-size: cover; 
+    background-position: center; 
     filter: blur(3px);
     transition: all 0.5s ease;
 }
@@ -579,8 +576,8 @@ footer p {
     width: 100px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/cake.png');
-    background-size: cover; /* Makes sure the image covers the whole element */
-    background-position: center; /* Centers the image within the element */
+    background-size: cover; 
+    background-position: center; 
     filter: blur(3px);
     transition: all 0.5s ease;
 }
@@ -599,8 +596,8 @@ footer p {
     width: 100px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/firfun.png');
-    background-size: cover; /* Makes sure the image covers the whole element */
-    background-position: center; /* Centers the image within the element */
+    background-size: cover; 
+    background-position: center; 
     filter: blur(3px);
     transition: all 0.5s ease;
 }
@@ -609,8 +606,8 @@ footer p {
     width: 400px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/firfun.png');
-    background-size: cover; /*Makes sure the image covers the whole element */
-    background-position: center; /* Centers the image within the element */
+    background-size: cover; 
+    background-position: center; 
     filter: blur(0px);
 }
 
@@ -618,8 +615,8 @@ footer p {
     width: 100px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/java-chatImage.png');
-    background-size: cover; /* Makes sure the image covers the whole element */
-    background-position: center; /* Centers the image within the element */
+    background-size: cover; 
+    background-position: center; 
     filter: blur(3px);
     transition: all 0.5s ease;
 }
@@ -628,16 +625,16 @@ footer p {
     width: 400px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/java-chatImage.png');
-    background-size: cover;/* Makes sure the image covers the whole element */
-    background-position: center; /*Centers the image within the element */
+    background-size: cover;
+    background-position: center; 
     filter: blur(0px);
 }
 #pro7 {
     width: 100px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/cafeImage.png');
-    background-size: cover; /* Makes sure the image covers the whole element */
-    background-position: center; /* Centers the image within the element */
+    background-size: cover; 
+    background-position: center; 
     filter: blur(3px);
     transition: all 0.5s ease;
 }
@@ -646,16 +643,16 @@ footer p {
     width: 400px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/cafeImage.png');
-    background-size: cover;/* Makes sure the image covers the whole element */
-    background-position: center; /*Centers the image within the element */
+    background-size: cover;
+    background-position: center; 
     filter: blur(0px);
 }
 #pro8 {
     width: 100px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/lib.png');
-    background-size: cover; /* Makes sure the image covers the whole element */
-    background-position: center; /* Centers the image within the element */
+    background-size: cover; 
+    background-position: center; 
     filter: blur(3px);
     transition: all 0.5s ease;
 }
@@ -664,31 +661,29 @@ footer p {
     width: 400px;
     height: 600px;
     background-image: url('../Images/Gallery/projects/lib.png');
-    background-size: cover;/* Makes sure the image covers the whole element */
-    background-position: center; /*Centers the image within the element */
+    background-size: cover;
+    background-position: center; 
     filter: blur(0px);
 }
 #profpic {
-    border-radius: 100px; /* Circular shape */
-    width: 88vw; /* Makes it scale with viewport width */
-    max-width: 620px; /* Limits max size for large screens */
-    height: 80vw; /* Keeps it proportional */
-    max-height: 620px; /* Matches the max-width */
+    border-radius: 100px; 
+    width: 88vw;
+    max-width: 620px; 
+    height: 80vw; 
+    max-height: 620px; 
     display: block;
-    margin: 0 auto; /* Centers it */
+    margin: 0 auto; 
     position: relative;
-    object-fit: cover; /* Ensures it fills the circular frame */
+    object-fit: cover; 
     overflow: hidden;
 }
 
-/* Show close button on hover */
 .i:hover #closebutton {
     display: block; /* Make close button visible on hover */
 }
 
-/* Close button styles */
 #closebutton {
-    display: none; /* Hidden initially */
+    display: none; 
     position: absolute;
     top: -10px;
     right: -10px;
@@ -700,13 +695,10 @@ footer p {
     cursor: pointer;
 }
 
-/* Optional: Close button hover effect */
 #closebutton:hover {
     background-color: darkred;
 }
 
-
-/* Hide the project buttons initially */
 .pro {
     position: absolute;
     bottom: 50%;
@@ -717,15 +709,11 @@ footer p {
  color: aqua;
 }
 
-/* Show close button on hover */
 .i:hover #closebutton {
-    display: block; /* Make close button visible on hover */
+    display: block; 
 }
 
-/* .namePro{
-    display: none;
-} */
-/* Style the close button */
+
 #closebutton {
     display: block; /* Initially hide close button */
     position: absolute;
@@ -738,9 +726,6 @@ footer p {
     cursor: pointer;
     font-size: 16px;
 }
-
-/* Optional: Add styles for links inside buttons */
-
 
 #closebutton{
     position: absolute;

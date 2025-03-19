@@ -29,72 +29,30 @@ closeBtn.addEventListener("click",function (){
   projectview.style.display="none"
 })
 
-// Get the elements by their IDs
-// Select all the buttons with the class 'i'
 var buttons = document.querySelectorAll('.i');
 
-// Loop through each button
 buttons.forEach(function(button) {
-    // Get the 'namePro' element inside the current button
+
     var namePro = button.querySelector('.namePro');
     var viewPro = button.querySelector('.viewPro');
     var codePro = button.querySelector('.viewCode');
     
-    // Add the 'mouseenter' event listener to show the 'namePro' when hovering
     button.addEventListener('mouseenter', function() {
-        namePro.style.display = 'block';  // Show the 'namePro' element
-        viewPro.style.display = 'block';  // Show the 'viewPro' element
-        codePro.style.display = 'block';  // Show the 'viewCode' element
-        namePro.style.backgroundColor = 'green';  // Change the background color
+        namePro.style.display = 'block'; 
+        viewPro.style.display = 'block'; 
+        codePro.style.display = 'block';  
+        namePro.style.backgroundColor = 'green';  
         console.log("Hovering over the button");
     });
     
-    // Add the 'mouseleave' event listener to hide the 'namePro' when the mouse leaves
     button.addEventListener('mouseleave', function() {
-        namePro.style.display = 'none';  // Hide the 'namePro' element
-        viewPro.style.display = 'none';  // Hide the 'viewPro' element
-        codePro.style.display = 'none';  // Hide the 'viewCode' element
+        namePro.style.display = 'none';  
+        viewPro.style.display = 'none';  
+        codePro.style.display = 'none'; 
     });
 });
 
 
-// var b1 = document.getElementById("b1")
-// var b2 = document.getElementById("b2")
-// var b3 = document.getElementById("b3")
-// var b4 = document.getElementById("b4")
-// var b5 = document.getElementById("b5")
-// var b6 = document.getElementById("b6")
-
-// b1.addEventListener("click",function (){
-//     window.location.href = "https://github.com/Shalomhosheya/Assignment4Css";
-// })
-// b2.addEventListener("click",function (){
-//     window.location.href = "https://github.com/Shalomhosheya/PortfolioHTMLframe";
-// })
-// b3.addEventListener("click",function (){
-//     window.location.href = "https://github.com/Shalomhosheya/CSS-Assignment";
-// })
-// b4.addEventListener("click",function (){
-//     window.location.href = "https://github.com/Shalomhosheya/Assignment4Css";
-// })
-// b5.addEventListener("click",function (){
-//     window.location.href = "https://github.com/Shalomhosheya/Portfolio";
-// })
-// b6.addEventListener("click",function (){
-//     window.location.href = "https://github.com/Shalomhosheya/Assignment_6_css";
-// })
-// b7.addEventListener("click",function (){
-//     window.location.href = "https://github.com/Shalomhosheya/Pos_system";
-// })
-// b8.addEventListener("click",function (){
-//     window.location.href = "https://github.com/Shalomhosheya/Assignment_8";
-// })
-// b9.addEventListener("click",function (){
-//     window.location.href = "https://github.com/Shalomhosheya/Assignment_9";
-// })
-// b10.addEventListener("click",function (){
-//     window.location.href = "https://github.com/Shalomhosheya/Assignment4Css";
-// })
 
 var closeBtn =document.getElementById("closebutton2")
 var assignemnt = document.getElementById("assignments")
@@ -118,12 +76,10 @@ const chatApp = "https://github.com/Shalomhosheya/ChatAppplication";
 const cafe = "https://github.com/Shalomhosheya/CafemanagementSystem";
 const lib = "https://github.com/Shalomhosheya/LibraryManagementSystem";
 
-// Function to open GitHub link
 function openGithub(url) {
     window.open(url, "_blank"); // Opens the URL in a new tab
 }
 
-// Add click event to each project button
 document.getElementById("pro1").addEventListener("click", () => openGithub(movieClone));
 document.getElementById("pro2").addEventListener("click", () => openGithub(greenShadow));
 document.getElementById("pro3").addEventListener("click", () => openGithub(fitnessApp));
