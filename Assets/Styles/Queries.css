@@ -1,3 +1,6 @@
+/* Responsive Styles */
+
+/* Max-width: 1400px */
 @media screen and (max-width: 1400px) {
     #profile {
         height: 55vh;
@@ -6,12 +9,10 @@
     .about-containers {
         flex-wrap: wrap;
     }
-
-    #contact,
-    #projects {
+    #contact, #projects {
         height: fit-content;
     }
-    closebutton2 {
+    #closebutton2 {
         width: 60px;
         position: relative;
         top: 10rem;
@@ -20,14 +21,31 @@
         display: none;
     }
     #profpic {
-        width: 100%;
-        max-width: 350px;
+        width: 25vw;
         height: auto;
+        max-height: 580px;
         display: block;
         margin: 0 auto;
     }
+    #projects1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    #projects1 button.i {
+        width: 8vw;
+        height: 40vh;
+        transition: all 0.5s ease;
+    }
+    
+    #projects1 button.i:hover {
+        width: 20vw;
+        height: 50vh;
+    }
 }
 
+/* Max-width: 1200px */
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
@@ -35,20 +53,14 @@
     #hamburger-nav {
         display: flex;
     }
-    #experience,
-    .experience-details-container {
+    #experience, .experience-details-container {
         margin-top: 2rem;
     }
-    #profile,
-    .section-container {
+    #profile, .section-container {
         display: block;
     }
     .arrow {
         display: none;
-    }
-    section,
-    .section-container {
-        height: fit-content;
     }
     section {
         margin: 0 5%;
@@ -61,15 +73,7 @@
     .about-containers {
         margin-top: 0;
     }
-    .pro{
-        /*position: absolute;
-        !*left: 3%;*!
-        bottom: 50%;
-        color: white;*/
-        font-size: 8px;
-        /*font-family: "Poppins", SA-Aradana;*/
-    }
-    .achievements>div>button{
+    .achievements > div > button {
         width: 48vw;
         height: 5vh;
     }
@@ -82,14 +86,30 @@
         display: none;
     }
     #profpic {
-        width: 100%;
-        max-width: 550px;
+        width: 30vw;
         height: auto;
+        max-height: 550px;
     }
-    
-    
+    .section-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-details-container {
+        width: 100%;
+        padding: 20px;
+    }
+    #projects1 button.i {
+        width: 7vw;
+        height: 35vh;
+    }
+    #projects1 button.i:hover {
+        width: 18vw;
+        height: 45vh;
+    }
 }
 
+/* Max-width: 600px */
 @media screen and (max-width: 600px) {
     #profpic {
         width: 90%;
@@ -97,8 +117,7 @@
         height: auto;
         border-radius: 10px;
     }
-    #contact,
-    footer {
+    #contact, footer {
         height: 40vh;
     }
     #profile {
@@ -112,16 +131,13 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-    .about-containers,
-    .contact-info-upper-container,
-    .btn-container {
+    .about-containers, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
     }
     .contact-info-container {
         margin: 0;
     }
-    .contact-info-container p,
-    .nav-links li a {
+    .contact-info-container p, .nav-links li a {
         font-size: 1rem;
     }
     .experience-sub-title {
@@ -149,15 +165,44 @@
     .text-container {
         text-align: justify;
     }
-    #projects1{
-        width: 85vw;
-        height: 40vh;
-        background-color: transparent;
+    #projects1 {
+        width: 83vw;
+        height: 70vh;
         position: absolute;
         bottom: 25%;
         left: 5%;
+        display: flex
+;
         justify-content: space-around;
-        display: flex;
+        background-color: transparent;
     }
-
+    .section-container {
+        flex-direction: column;
+    }
+    .about-details-container {
+        width: 100%;
+        padding: 10px;
+    }
+    #projects1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 10px;
+    }
+    #projects1 button.i {
+        width: 6vw;
+        height: 30vh;
+    }
+    #projects1 button.i:hover {
+        width: 15vw;
+        height: 40vh;
+    }
+    .achievements {
+        text-align: center;
+        padding: 10px;
+    }
+    .details-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
