@@ -90,7 +90,7 @@ document.getElementById("pro7").addEventListener("click", () => openGithub(cafe)
 document.getElementById("pro8").addEventListener("click", () => openGithub(lib));
 
 document.getElementById("cvBtn").addEventListener("click", function(){
-    window.open("./Assets/files/resume-2.pdf")
+    window.open("./Assets/files/resumeComplete (1)com.pdf")
     console.log("hello")
 });
 

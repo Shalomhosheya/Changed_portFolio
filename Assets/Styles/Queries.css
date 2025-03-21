@@ -80,11 +80,12 @@
     #closebutton2 {
         width: 60px;
         position: relative;
-        top: -65rem;
-        left: 82vw;
+        top: -73rem;
+        left: 72vw;
         border-radius: 20px;
         display: none;
     }
+
     #profpic {
         width: 30vw;
         height: auto;
