@@ -743,7 +743,7 @@ footer p {
     display: none;
     flex-direction: column;
     position: relative;
-    bottom: 40rem;
+    bottom: 30rem;
     gap: 18px;
 }
 
@@ -767,7 +767,7 @@ footer p {
 #closebutton2 {
     width: 60px;
     position: relative;
-    bottom: 75rem;
+    bottom: 66rem;
     left:97%;
     border: none;
     background: none;
@@ -787,7 +787,7 @@ footer p {
 .title-cus-1{
     color: black;
     font-size: 25px;
-    animation: typing 2s steps(4, start) infinite;
+    animation: typing2 2s steps(4, start) infinite;
 }
 .title-cus-2{
 
@@ -807,15 +807,15 @@ footer p {
 
 @keyframes typing2 {
     from {
-        opacity: 1;
+        opacity: 1.5;
         transform-origin: left;
     }
     to {
-        opacity: 0.5;
+        opacity: 0.8;
         transform-origin: right;
     }
     at 50% {
-        opacity: 1;
+        opacity: 1.5;
         transform-origin: center;
     }
 }
