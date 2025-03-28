@@ -156,7 +156,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-    padding-top: 4vh;
+    padding-top: 31vh;
     height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
@@ -172,7 +172,7 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 24rem;
     height: 60vh;
 }
 
@@ -672,6 +672,7 @@ footer p {
     max-width: 720px; 
     height: 81vw; 
     max-height: 620px; 
+    top: -14rem;
     display: block;
     margin: 0 auto; 
     position: relative;
