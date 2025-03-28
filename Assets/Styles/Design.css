@@ -470,19 +470,17 @@ footer p {
     opacity: 0.5;
     font-size: 15px;
 }
-#projects1{
+#projects1 {
     width: 77vw;
-    height: 60vh;
-    background-color: rgba(255,255,255,0.1);
+    height: 43vh;
+    background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
-    bottom: 10%;
+    bottom: 7%;
     left: 5%;
     border-radius: 50px;
     justify-content: space-around;
     display: none;
-
 }
-
 .i {
     border: 3px solid black;
     border-radius: 100px;
@@ -745,7 +743,7 @@ footer p {
     display: none;
     flex-direction: column;
     position: relative;
-    bottom: 37rem;
+    bottom: 40rem;
     gap: 18px;
 }
 
@@ -762,16 +760,40 @@ footer p {
     background: gray;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+
+.details-container:hover{
+    background: rgba(255,255,255,0.35);
+}
 #closebutton2 {
     width: 60px;
     position: relative;
-    top: -73rem;
-    left: 78vw;
+    bottom: 75rem;
+    left:97%;
+    border: none;
+    background: none;
+    cursor: pointer;
     border-radius: 20px;
     display: none;
+    transition: 0.5s;
 }
-.details-container:hover{
-    background: rgba(255,255,255,0.35);
+.title-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    gap: 50%;
+    align-items: center;
+}
+.title-cus-1{
+    color: black;
+    font-size: 25px;
+    animation: typing 2s steps(4, start) infinite;
+}
+.title-cus-2{
+
+    color:aliceblue;
+    font-size: 25px;
+    animation: typing2 2s steps(4, start) infinite;
 }
 @keyframes typing {
     0% {
@@ -782,6 +804,18 @@ footer p {
         opacity: 0;
     }
 }
-@keyframes animi {
-    
+
+@keyframes typing2 {
+    from {
+        opacity: 1;
+        transform-origin: left;
+    }
+    to {
+        opacity: 0.5;
+        transform-origin: right;
+    }
+    at 50% {
+        opacity: 1;
+        transform-origin: center;
+    }
 }

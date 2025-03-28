@@ -206,4 +206,8 @@
         align-items: center;
         text-align: center;
     }
+    .title-box {
+        flex-direction: column;
+        gap: 1rem; 
+    }
 }
