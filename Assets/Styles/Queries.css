@@ -166,17 +166,7 @@
     .text-container {
         text-align: justify;
     }
-    #projects1 {
-        width: 83vw;
-        height: 70vh;
-        position: absolute;
-        bottom: 25%;
-        left: 5%;
-        display: flex
-;
-        justify-content: space-around;
-        background-color: transparent;
-    }
+    
     .section-container {
         flex-direction: column;
     }
@@ -185,9 +175,12 @@
         padding: 10px;
     }
     #projects1 {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        gap: 10px;
+        position: relative;
+        bottom: 30rem;
+        display: grid
+;
+        grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+        gap: 22px;
     }
     #projects1 button.i {
         width: 6vw;
