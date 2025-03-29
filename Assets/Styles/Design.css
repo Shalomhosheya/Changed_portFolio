@@ -776,97 +776,182 @@ footer p {
     display: none;
     transition: 0.5s;
 }
-.title-box{
+.title-box {
     display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-    margin-bottom: 20px;
-    gap: 50%;
-    align-items: center;
+  
+    justify-content: center;
+    margin-top: 2%;
+    gap:40rem;
+    
 }
 .title-cus-1{
     color: black;
     font-size: 25px;
     animation: typing2 2s steps(4, start) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 1rem;
 }
 .title-cus-2{
 
     color:aliceblue;
     font-size: 25px;
     animation: typing2 2s steps(4, start) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 1rem;
 }
-.certificate-buttons {
+/* Academic Section Styles */
+.academic-card {
+    border-radius: 12px;
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .academic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.1);
+  }
+  
+  .qualifications-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .qualification-item {
     display: flex;
-    gap: 25px;
-    flex-wrap: wrap;
+    align-items: center;
+    padding: 12px 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .qualification-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 8px rgba(99, 102, 241, 0.15);
+  }
+  
+  .qual-icon {
+    font-size: 24px;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    background: rgba(99, 102, 241, 0.1);
+    border-radius: 50%;
+    color: #6366f1;
+  }
+  
+  .qual-title {
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 2px;
+    font-size: 0.95rem;
+  }
+  
+  .qual-desc {
+    color: #4a5568;
+    font-size: 0.85rem;
+    opacity: 0.9;
+  }
+  
+  /* Certificates Section Styles */
+  .certificates-card {
+    border-radius: 12px;
+    border: 1px solid rgba(168, 85, 247, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .certificates-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(168, 85, 247, 0.1);
+  }
+  
+  .certificate-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
   
   .cert-btn {
-    position: relative;
-    padding: 12px 20px;
-    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    overflow: hidden;
-    transition: all 0.3s ease;
     display: flex;
     align-items: center;
-    min-width: 150px;
-    height: 60px;
+    padding: 12px 15px;
+    background: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
   }
   
   .cert-btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
   }
   
-  .cert-btn:active {
-    transform: translateY(1px);
+  .cert-btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, #8b5cf6, #ec4899);
+    transition: width 0.3s ease;
   }
   
-  .cert-icon {
+  .cert-btn:hover::after {
+    width: 5px;
+  }
+  
+  .cert-badge {
     font-size: 24px;
-    margin-right: 10px;
-    transition: all 0.3s ease;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
   }
   
-  .cert-text {
+  .cert-btn-1 .cert-badge { background: #f59e0b; }
+  .cert-btn-2 .cert-badge { background: #3b82f6; }
+  .cert-btn-3 .cert-badge { background: #10b981; }
+  
+  .cert-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cert-name {
     font-weight: 600;
     color: #2d3748;
-    transition: all 0.3s ease;
+    margin-bottom: 2px;
+    font-size: 0.95rem;
   }
   
-  .cert-hover {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    padding: 12px 0;
-    background: #3182ce;
-    color: white;
-    text-align: center;
-    border-radius: 0 0 10px 10px;
-    transition: all 0.3s ease;
-    font-size: 0.9em;
+  .cert-issuer {
+    color: #4a5568;
+    font-size: 0.8rem;
+    opacity: 0.9;
   }
   
-  .cert-btn:hover .cert-hover {
-    top: calc(100% - 40px);
+  /* Responsive adjustments */
+@media (max-width: 768px) {
+    .title-box {
+      grid-template-columns: 1fr;
+    }
   }
-  
-  .cert-btn:hover .cert-icon {
-    transform: scale(1.1);
-  }
-  
-  .cert-btn:hover .cert-text {
-    color: #3182ce;
-  }
-
 @keyframes typing {
     0% {
         opacity: 1;
